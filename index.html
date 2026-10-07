@@ -4,13 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boba Drops Project</title>
+    <title>Boba Drops</title>
+    <meta name="description" content="Boba Drops serves handcrafted bubble teas, fruit refreshers, and tasty treats in a cozy neighborhood café." />
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
-    <h1>Enter header text here</h1>
-    <p>Enter body text here</p>
+    <header class="topbar">
+        <div class="brand-wrap">
+            <div class="brand-mark">B</div>
+            <span class="brand-name">Boba Drops</span>
+        </div>
+
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#menu">Menu</a>
+            <a href="#story">Our Story</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#visit">Visit</a>
+        </nav>
+
+        <a class="button button-primary" href="#menu">Order now</a>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Freshly brewed every day</p>
+                <h1>Sweet sips, soft clouds, big flavor.</h1>
+                <p class="intro">
+                    Discover handcrafted bubble teas, fruit blends, and cozy café vibes made for your everyday joy.
+                </p>
+
+                <div class="cta-row">
+                    <a class="button button-primary" href="#menu">Explore menu</a>
+                    <a class="button button-secondary" href="#visit">Find a shop</a>
+                </div>
+
+                <ul class="stats" aria-label="Store statistics">
+                    <li><strong>18k+</strong><span>drinks served</span></li>
+                    <li><strong>4.9/5</strong><span>customer love</span></li>
+                    <li><strong>7 min</strong><span>avg. pickup</span></li>
+                </ul>
+            </div>
+
+            <div class="hero-visual" aria-label="Illustrated bubble tea cup">
+                <div class="drink-cup">
+                    <div class="lid"></div>
+                    <div class="drink-surface"></div>
+                    <div class="straw"></div>
+                    <div class="boba boba-one"></div>
+                    <div class="boba boba-two"></div>
+                    <div class="boba boba-three"></div>
+                    <div class="boba boba-four"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="story">
+            <div class="section-heading">
+                <p class="eyebrow">Why customers keep coming back</p>
+                <h2>Made with care, served with joy.</h2>
+            </div>
+
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <span class="feature-icon">✦</span>
+                    <h3>Fresh ingredients</h3>
+                    <p>Real fruit, premium tea leaves, and silky milk blends in every order.</p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon">☕</span>
+                    <h3>Crafted daily</h3>
+                    <p>We brew in small batches to keep every sip bright, smooth, and balanced.</p>
+                </article>
+
+                <article class="feature-card">
+                    <span class="feature-icon">❤</span>
+                    <h3>Neighborhood vibe</h3>
+                    <p>A cozy café space built for catching up, studying, and slowing down.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu" id="menu">
+            <div class="section-heading">
+                <p class="eyebrow">Fan favorites</p>
+                <h2>Choose your perfect pour.</h2>
+            </div>
+
+            <div class="menu-grid">
+                <article class="menu-item item-pink">
+                    <div class="drink-color"></div>
+                    <h3>Strawberry Cloud</h3>
+                    <p>Strawberry tea with silky milk and dreamy pearls.</p>
+                    <span>$6.50</span>
+                </article>
+
+                <article class="menu-item item-gold">
+                    <div class="drink-color"></div>
+                    <h3>Honey Citrus</h3>
+                    <p>Bright citrus notes with a mellow honey finish.</p>
+                    <span>$6.25</span>
+                </article>
+
+                <article class="menu-item item-mint">
+                    <div class="drink-color"></div>
+                    <h3>Matcha Bloom</h3>
+                    <p>Classic matcha blended with oat milk and chewy boba.</p>
+                    <span>$6.75</span>
+                </article>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <div class="review-card">
+                <p>“The best boba in the neighborhood. Every drink tastes fresh, vibrant, and made with real care.”</p>
+                <div class="reviewer">
+                    <strong>Marina L.</strong>
+                    <span>Local regular</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="visit" id="visit">
+            <div>
+                <p class="eyebrow">Visit us</p>
+                <h2>Stop by for your next favorite sip.</h2>
+            </div>
+            <div class="visit-details">
+                <p>214 Harbor Lane<br />Sunset District, CA</p>
+                <p>Open daily<br />10:00 AM – 9:00 PM</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© 2026 Boba Drops</p>
+        <a href="#top">Back to top</a>
+    </footer>
 </body>
 
 </html>
